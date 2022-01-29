@@ -1,0 +1,21 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "Module storage for @mineral.ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "authors": [
+    {
+      "name": "Nathael",
+      "email": "pro.nathaelbonnal@gmail.com"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@mineralts/core-preview": "0.0.7",
+    "knex": "^1.0.1",
+    "typescript": "^4.5.5"
+  }
+}
