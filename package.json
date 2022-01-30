@@ -1,21 +1,24 @@
 {
   "name": "storage",
   "version": "1.0.0",
-  "description": "Module storage for @mineral.ts",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "authors": [
     {
       "name": "Nathael",
       "email": "pro.nathaelbonnal@gmail.com"
     }
   ],
+  "description": "Module storage for @mineral.ts",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
   "license": "ISC",
   "dependencies": {
     "@mineralts/core-preview": "0.0.7",
+    "@vscode/sqlite3": "^5.0.7",
     "knex": "^1.0.1",
+    "sqlite3": "^5.0.2",
     "typescript": "^4.5.5"
   }
 }

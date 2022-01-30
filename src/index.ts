@@ -1,5 +1,5 @@
+import Connection from "./Connection";
 
-
-export default class Index {
-
+export {
+    Connection
 }
